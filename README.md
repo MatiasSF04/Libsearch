@@ -1,6 +1,6 @@
-# Literalura
+# Libsearch
 
-Literalura es una aplicación desarrollada en Java con Spring Boot que permite consultar y gestionar un catálogo de libros obtenidos desde la API [Gutendex](https://gutendex.com/), con persistencia en una base de datos PostgreSQL.
+Libsearch es una aplicación desarrollada en Java con Spring Boot que permite consultar y gestionar un catálogo de libros obtenidos desde la API [Gutendex](https://gutendex.com/), con persistencia en una base de datos PostgreSQL.
 
 ## Funcionalidades
 
@@ -26,22 +26,22 @@ Literalura es una aplicación desarrollada en Java con Spring Boot que permite c
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/literalura.git
-cd literalura
+git clone https://github.com/tu-usuario/libsearch.git
+cd libsearch
 ```
 
 ### 2. Configura la base de datos
 Asegúrate de tener PostgreSQL corriendo y crea una base de datos, por ejemplo:
 
 ```bash
-CREATE DATABASE literalura;
+CREATE DATABASE libsearch;
 ```
 
 ### 3. Configura las variables de entorno o application.properties
 Edita src/main/resources/application.properties con tu configuración:
 
 ```bash
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
+spring.datasource.url=jdbc:postgresql://localhost:5432/libsearch
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_password
 spring.jpa.hibernate.ddl-auto=update
@@ -62,7 +62,7 @@ Se abrirá un menú interactivo por consola.
 src/
 ├── main/
 │   ├── java/
-│   │   └── com.matisf04.literalura/
+│   │   └── com.user.libsearch/
 │   │       ├── model/
 │   │       ├── repository/
 │   │       ├── service/
